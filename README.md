@@ -1,2 +1,2 @@
-# 2D-Game
+# Pixek-Adventure-Game
 simple 2d-game
