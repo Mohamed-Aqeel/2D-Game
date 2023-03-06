@@ -19,7 +19,7 @@ public class BossHealth : MonoBehaviour
 
         if (health <= 0)
         {
-            Die();
+            Invoke("Die", 2);
         }
     }
 
