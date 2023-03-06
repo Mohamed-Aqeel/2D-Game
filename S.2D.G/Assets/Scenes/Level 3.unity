@@ -769,6 +769,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 500
+--- !u!1 &1265576690 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4525487741358248007, guid: 041cc8993e6ee884d84b5bf15bbda636, type: 3}
+  m_PrefabInstance: {fileID: 6031980942694809835}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1265576698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1265576690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21683a5ed742b124ea6c968c309b9c71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1823404194}
+  isFlipped: 0
 --- !u!1 &1306363991
 GameObject:
   m_ObjectHideFlags: 0
@@ -100187,7 +100206,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1310574134}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.67, y: -0.09, z: 0}
+  m_LocalPosition: {x: 0.39, y: 0.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
