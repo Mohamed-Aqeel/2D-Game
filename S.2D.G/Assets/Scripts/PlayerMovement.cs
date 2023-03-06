@@ -22,7 +22,7 @@ public class PlayerMovement : MonoBehaviour
        
     }
 
-    public enum MovementState {Idle, Running, Jumping, Falling }
+    public enum MovementState { Idle, Running, Jumping, Falling, Hit }
     
     // Update is called once per frame
     void Update()
@@ -44,6 +44,8 @@ public class PlayerMovement : MonoBehaviour
     public void UpdateAnimationState()
     {
         MovementState state;
+
+       
 
         if (MoveForward > 0f)
         {

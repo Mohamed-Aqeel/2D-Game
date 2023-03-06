@@ -6,12 +6,11 @@ using UnityEngine.SceneManagement;
 public class PlayerLife : MonoBehaviour
 {
     public Rigidbody2D Player;
-    public Animator DieAnim;
     [SerializeField] AudioSource DeathSound;
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -25,8 +24,9 @@ public class PlayerLife : MonoBehaviour
 
     private void Die()
     {
+
         Player.bodyType = RigidbodyType2D.Static;
-        DieAnim.SetTrigger("Death");
+        GetComponent<Animator>().SetTrigger("DIED");
     }
 
     private void RestartLevel()
