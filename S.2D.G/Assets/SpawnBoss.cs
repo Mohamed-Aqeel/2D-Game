@@ -10,6 +10,7 @@ public class SpawnBoss : MonoBehaviour
     {
         
         Instantiate(Boss, transform.position, Quaternion.identity);
+
     }
    
 }
